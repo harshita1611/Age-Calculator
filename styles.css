@@ -1,0 +1,75 @@
+body{
+  background-color: #4285f4;
+  font-family: 'Roboto', sans-serif;
+}
+.heading{
+  font-size: 3rem;
+  font-weight: bold;
+  color: black;
+  margin: 1rem 1rem 1rem 1rem;
+}
+.container{
+  width: fit-content;
+  background: rgb(233,236,248);
+  background: linear-gradient(0deg, rgba(233,236,248,1) 0%);
+  padding:  1rem 0.5rem 1rem 0.5rem ;
+  border-radius: 1rem;
+  margin: 18% 20% 20% 25%;
+  text-align: center;
+  height: 20rem;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);;
+}
+.btn{
+  font-family: 'Roboto', sans-serif;
+  background-color:black;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 1rem 1rem 1rem;
+  border: none;
+
+}
+.btn:hover{
+  background-color: grey;
+  color: black;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.date{
+  font-size: 1.5rem;
+  margin: 1rem 1rem 1rem 1rem;
+
+}
+
+.result{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem 1rem 1rem 1rem;
+  width: fit-content;
+  color: black;
+  margin-left: 10rem;;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 1rem;
+  height: fit-content;
+  font-weight: bold;
+}
+.result:hover{
+  background-color: grey;
+  color: black;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.result:active{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.result::after{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
