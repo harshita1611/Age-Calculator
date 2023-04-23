@@ -22,9 +22,7 @@ function finalcalculateAge(birthdate, currentdate) {
   const dict = {1: 31,2: leap ? 29 : 28,3: 31,4: 30,5: 31,6: 30,7: 31,8: 31,9: 30,10: 31,11: 30,12: 31};
   let year = currentdate[2] - birthdate[2];
   let month = birthdate[1] - currentdate[1];
-  if (birthdate[0] == 13 && birthdate[1] == 2 && birthdate[2] == 2003) {
-    return "21 years   2 months   9 days";
-  }
+  
   if (month < 0) {
     year = year;
     month = Math.abs(month);
